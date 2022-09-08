@@ -7,7 +7,7 @@ import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
 public class KafkaTopicConfig {
-    private static final String WIKIMEDIA_TOPIC= "wikimedia_topic";
+    private static final String WIKIMEDIA_TOPIC= "wikimedia_recent_change_topic";
 
     @Bean
     public NewTopic wikimediaTopic(){
